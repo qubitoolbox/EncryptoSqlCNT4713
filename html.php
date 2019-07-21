@@ -13,7 +13,6 @@ Encrypted Database Connection
 
 </br>
 
-		
 <div><br><h4>Click any of the below tables to View its stored values from DataBase:</h4></br></div>
 
 <script>
@@ -50,16 +49,11 @@ Encrypted Database Connection
 
 <button onclick="changeClicked(this)">Encrypt</br></br></button>
 
-
-
-
-
 <script> document.write("<button onClick='goback()'>Go Back</button>");
 	//function tries to brings user back to main page
 	function goback(){
 			window.history.back();
 		}</script>
-
 
 <?php 
 
@@ -77,6 +71,5 @@ echo "END OF PAGE";
 ?>
 
 </HEAD>
-
 
 </HTML>
