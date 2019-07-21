@@ -1,6 +1,4 @@
 <div>
-		
-		
 		<!--- 
 		
 			Creation of forms that will store values in array, to then 
@@ -9,21 +7,17 @@
 		
 		--->
 		
-		
-		
 		<form  method='POST' action=''  id='searchform'> <br>ENCRYPT MESSAGE</br>
 	      <input  type='text' name='q1' placeholder='Query to encrypt'> 
 	      <input  type='submit' name='encrypt' value='encrypt'>
 	    </form>
 		
 		
-		
 </div>
 
-<!---   --->
+<!---  Inserts md5 hashed value into table encryptedmsg --->
 <?php
 
-			$salt = '';
 					
 			if(isset($_POST['q1'])){
 				
