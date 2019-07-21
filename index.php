@@ -1,7 +1,4 @@
 <?php
-//include 'bootstrap.min.css';
-
-
 	//these settings need to be set user specific
 	//for this app to run
 	
@@ -33,7 +30,6 @@ else{
 	// include the files for the web app
 	include 'bootstrp.php';
 	include 'forms.php';
-	
 	include 'html.php';
 ?>
 <html> 	</html>
