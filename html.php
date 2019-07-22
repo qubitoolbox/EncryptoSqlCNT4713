@@ -48,10 +48,7 @@ Encrypted Database Connection
 <!--- REALOAD PAGE button --->
 <button onclick="location.reload(true)">Clear</br></br></button>
 
-<button onclick="changeClicked(this)">Encrypt</br></br></button>
-
-
-
+<button onclick="changeClicked(this)">Show Values in Table</br></br></button>
 
 
 <script> document.write("<button onClick='goback()'>Go Back</button>");
